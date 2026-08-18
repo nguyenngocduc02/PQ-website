@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phú Quốc · Duke, Xíu &amp; Min</title>
+  <meta name="description" content="Lịch trình Phú Quốc 4 ngày 3 đêm của gia đình Duke, Xíu và bé Min — nhẹ nhàng, có giờ nghỉ trưa, ưu tiên Nam đảo." />
+  <meta name="theme-color" content="#1B2A4A" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231B2A4A'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='22' font-family='Georgia,serif' fill='%23E8D5B7'%3EPQ%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top">PQ</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Mở menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#tong-quan">Tổng quan</a>
+      <a href="#thu-5">Thứ 5</a>
+      <a href="#thu-6">Thứ 6</a>
+      <a href="#thu-7">Thứ 7</a>
+      <a href="#chu-nhat">Chủ nhật</a>
+      <a href="#luu-y">Lưu ý</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000&q=80"
+          alt=""
+          width="2000"
+          height="1333"
+          fetchpriority="high"
+        />
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="eyebrow hero__stagger" style="--d: 0.1s">4 ngày 3 đêm · Nam đảo</p>
+        <h1 class="hero__stagger" style="--d: 0.25s">Phú Quốc</h1>
+        <p class="hero__family hero__stagger" style="--d: 0.45s">Duke · Xíu · Min</p>
+        <p class="hero__lead hero__stagger" style="--d: 0.6s">
+          Lịch trình ưu tiên di chuyển nhẹ nhàng, có thời gian nghỉ trưa cho bé.
+          Một buổi Bắc đảo đi Vinpearl Safari — các ngày còn lại ở Nam đảo.
+        </p>
+        <a class="btn btn--light hero__stagger" style="--d: 0.8s" href="#tong-quan">Xem lịch trình</a>
+      </div>
+      <svg class="hero__wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,64 C240,120 480,0 720,40 C960,80 1200,16 1440,64 L1440,120 L0,120 Z" />
+      </svg>
+    </section>
+
+    <section class="section family" id="gia-dinh">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Gia đình</p>
+          <h2>Hai người lớn và một em bé một tuổi</h2>
+          <p class="section__sub">
+            Mọi ngày được xếp theo nhịp của Min: vui chơi buổi sáng, ăn và ngủ trưa,
+            rồi ra ngoài nhẹ nhàng khi nắng dịu.
+          </p>
+        </header>
+        <div class="family__grid">
+          <article class="person-card reveal" style="--d: 0.05s">
+            <span class="person-card__role">Người lớn</span>
+            <h3>Duke</h3>
+            <p>Cùng Xíu lo lịch trình, xe riêng và xen kẽ giờ nghỉ để cả nhà không bị đuối.</p>
+          </article>
+          <article class="person-card reveal" style="--d: 0.15s">
+            <span class="person-card__role">Người lớn</span>
+            <h3>Xíu</h3>
+            <p>Thay phiên xuống biển, dạo Sunset Town và giữ nhịp ngày vừa đủ — không nhồi điểm.</p>
+          </article>
+          <article class="person-card person-card--accent reveal" style="--d: 0.25s">
+            <span class="person-card__role">Bé 1 tuổi</span>
+            <h3>Min</h3>
+            <p>Trung tâm của lịch trình. Ưu tiên ngủ trưa, tránh nắng 11:00–15:00, không xe máy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section overview" id="tong-quan">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Tổng quan</p>
+          <h2>Bốn ngày, một nhịp chậm</h2>
+          <p class="section__sub">Nam đảo là nhà. Bắc đảo chỉ một buổi Safari.</p>
+        </header>
+        <div class="overview__grid">
+          <a class="day-card reveal" href="#thu-5" style="--d: 0.05s">
+            <div class="day-card__media">
+              <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=900&q=80" alt="Bãi biển cát trắng" loading="lazy" decoding="async" />
+            </div>
+            <div class="day-card__body">
+              <span class="pill">Nam đảo</span>
+              <h3>Thứ 5</h3>
+              <p>Đến Phú Quốc → Bãi Khem → Sunset Town</p>
+            </div>
+          </a>
+          <a class="day-card reveal" href="#thu-6" style="--d: 0.12s">
+            <div class="day-card__media">
+              <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=900&q=80" alt="Safari hoang dã" loading="lazy" decoding="async" />
+            </div>
+            <div class="day-card__body">
+              <span class="pill pill--north">Bắc đảo</span>
+              <h3>Thứ 6</h3>
+              <p>Vinpearl Safari → về Nam đảo nghỉ</p>
+            </div>
+          </a>
+          <a class="day-card reveal" href="#thu-7" style="--d: 0.19s">
+            <div class="day-card__media">
+              <img src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&w=900&q=80" alt="Đảo nhiệt đới nhìn từ trên cao" loading="lazy" decoding="async" />
+            </div>
+            <div class="day-card__body">
+              <span class="pill">Nam đảo</span>
+              <h3>Thứ 7</h3>
+              <p>Hòn Thơm + cáp treo → Sunset Town</p>
+            </div>
+          </a>
+          <a class="day-card reveal" href="#chu-nhat" style="--d: 0.26s">
+            <div class="day-card__media">
+              <img src="https://images.unsplash.com/photo-1520454974749-611b7248ffdb?auto=format&fit=crop&w=900&q=80" alt="Bãi Sao cát trắng" loading="lazy" decoding="async" />
+            </div>
+            <div class="day-card__body">
+              <span class="pill">Nam đảo</span>
+              <h3>Chủ nhật</h3>
+              <p>Bãi Sao → sân bay</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thứ 5 -->
+    <section class="day" id="thu-5">
+      <div class="day__banner">
+        <img src="https://images.unsplash.com/photo-1495954484750-af469f2f9be5?auto=format&fit=crop&w=1800&q=80" alt="Hoàng hôn trên biển" loading="lazy" decoding="async" />
+        <div class="day__banner-content">
+          <span class="pill">Nam đảo · Ngày 1</span>
+          <h2>Thứ 5</h2>
+          <p>Đến Phú Quốc + Bãi Khem + Sunset Town</p>
+        </div>
+      </div>
+      <div class="container day__body">
+        <p class="day__intro reveal">
+          Ngày hạ cánh: nhận phòng khu An Thới / Bãi Khem, cho Min ngủ trưa,
+          rồi biển nhẹ và hoàng hôn ở Sunset Town. Ở Nam đảo cả 3 đêm để không đổi khách sạn.
+        </p>
+        <div class="timeline">
+          <article class="slot reveal">
+            <time>10:30–11:30</time>
+            <div class="slot__content">
+              <h3>Đến sân bay Phú Quốc</h3>
+              <ul>
+                <li>Lấy hành lý.</li>
+                <li>Thuê xe riêng về khách sạn khu <strong>An Thới / Bãi Khem</strong>.</li>
+                <li>Khuyến nghị ở Nam đảo cả 3 đêm khi đi cùng bé 1 tuổi.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>12:00–13:30</time>
+            <div class="slot__content">
+              <h3>Ăn trưa &amp; check-in</h3>
+              <ul>
+                <li>Ăn trưa.</li>
+                <li>Check-in khách sạn.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>13:30–15:30</time>
+            <div class="slot__content">
+              <h3>Nghỉ trưa</h3>
+              <ul>
+                <li>Ưu tiên để bé ngủ.</li>
+                <li>Cả gia đình hồi phục sau chuyến bay.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>16:00–17:30</time>
+            <div class="slot__content">
+              <h3>Bãi Khem</h3>
+              <ul>
+                <li>Đi biển nhẹ nhàng.</li>
+                <li>Cho bé chơi cát, ngắm biển.</li>
+                <li>Không cần di chuyển thêm nhiều điểm.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>18:00–21:00</time>
+            <div class="slot__content">
+              <h3>Sunset Town</h3>
+              <ul>
+                <li>Dạo phố, chụp ảnh.</li>
+                <li>Ngắm hoàng hôn.</li>
+                <li>Ăn tối.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>21:00</time>
+            <div class="slot__content">
+              <h3>Về khách sạn</h3>
+              <ul>
+                <li>Tắm cho bé và ngủ sớm.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thứ 6 -->
+    <section class="day" id="thu-6">
+      <div class="day__banner">
+        <img src="https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1800&q=80" alt="Động vật hoang dã tại safari" loading="lazy" decoding="async" />
+        <div class="day__banner-content">
+          <span class="pill pill--north">Bắc đảo · Ngày 2</span>
+          <h2>Thứ 6</h2>
+          <p>Buổi Bắc đảo duy nhất: Vinpearl Safari</p>
+        </div>
+      </div>
+      <div class="container day__body">
+        <p class="day__intro reveal">
+          Đây là buổi Bắc đảo duy nhất trong lịch trình. Xe riêng có ghế trẻ em,
+          không ghép VinWonders — với bé 1 tuổi sẽ quá mệt.
+        </p>
+        <div class="timeline">
+          <article class="slot reveal">
+            <time>06:30–07:00</time>
+            <div class="slot__content">
+              <h3>Dậy và ăn sáng</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>07:00–08:30</time>
+            <div class="slot__content">
+              <h3>Xe riêng lên Bắc đảo</h3>
+              <ul>
+                <li>Từ Nam đảo đi Vinpearl Safari.</li>
+                <li>Ưu tiên xe có ghế trẻ em.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>08:30–11:30</time>
+            <div class="slot__content">
+              <h3>Vinpearl Safari</h3>
+              <p class="slot__note">Ưu tiên theo thứ tự:</p>
+              <ol>
+                <li>Khu Safari bán hoang dã.</li>
+                <li>Các khu động vật.</li>
+                <li>Các khu phù hợp với trẻ nhỏ.</li>
+                <li>Nghỉ uống nước khi cần.</li>
+              </ol>
+              <p class="callout callout--warn">Không nên kết hợp VinWonders trong cùng ngày.</p>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>11:30–12:30</time>
+            <div class="slot__content">
+              <h3>Ăn trưa</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>12:30–14:30</time>
+            <div class="slot__content">
+              <h3>Xe riêng về Nam đảo</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>14:30–16:30</time>
+            <div class="slot__content">
+              <h3>Nghỉ tại khách sạn</h3>
+              <ul>
+                <li>Cho bé ngủ trưa.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>16:30–18:30</time>
+            <div class="slot__content">
+              <h3>Hai lựa chọn buổi chiều</h3>
+              <div class="choice">
+                <div class="choice__card">
+                  <span class="choice__label">Phương án A</span>
+                  <h4>Nhẹ nhàng</h4>
+                  <p>Nghỉ / chơi tại biển gần khách sạn.</p>
+                </div>
+                <div class="choice__card">
+                  <span class="choice__label">Phương án B</span>
+                  <h4>Đi Bãi Sao</h4>
+                  <p>Tắm biển nhẹ nhàng. Ăn sớm nếu thuận tiện.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>19:00–21:00</time>
+            <div class="slot__content">
+              <h3>Về khách sạn</h3>
+              <ul>
+                <li>Tắm cho bé.</li>
+                <li>Nghỉ ngơi.</li>
+              </ul>
+              <p class="callout">Không cần đi Sunset Town tối thứ 6 — ngày Safari đã có nhiều thời gian di chuyển.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thứ 7 -->
+    <section class="day" id="thu-7">
+      <div class="day__banner">
+        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1800&q=80" alt="Biển nhiệt đới trong xanh" loading="lazy" decoding="async" />
+        <div class="day__banner-content">
+          <span class="pill">Nam đảo · Ngày 3</span>
+          <h2>Thứ 7</h2>
+          <p>Hòn Thơm nhẹ nhàng + Sunset Town</p>
+        </div>
+      </div>
+      <div class="container day__body">
+        <p class="day__intro reveal">
+          Ngày tập trung hoàn toàn ở Nam đảo. Phương án khuyến nghị: Hòn Thơm nhẹ nhàng —
+          người lớn thay nhau xuống biển, không cần trò chơi nước vì bé mới 1 tuổi.
+        </p>
+        <div class="timeline">
+          <article class="slot reveal">
+            <time>08:00</time>
+            <div class="slot__content">
+              <h3>Ăn sáng</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>09:00</time>
+            <div class="slot__content">
+              <h3>Tới ga cáp treo Hòn Thơm</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>09:30–10:00</time>
+            <div class="slot__content">
+              <h3>Đi cáp treo Hòn Thơm</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>10:00–12:00</time>
+            <div class="slot__content">
+              <h3>Ra Hòn Thơm</h3>
+              <ul>
+                <li>Nghỉ ngơi trên biển.</li>
+                <li>Người lớn thay nhau xuống biển.</li>
+                <li>Không cần tham gia các trò chơi nước.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>12:00–13:00</time>
+            <div class="slot__content">
+              <h3>Ăn trưa</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>13:00–14:00</time>
+            <div class="slot__content">
+              <h3>Quay lại An Thới</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>14:00–16:00</time>
+            <div class="slot__content">
+              <h3>Về khách sạn nghỉ</h3>
+              <ul>
+                <li>Cho bé ngủ trưa.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>16:00–18:00</time>
+            <div class="slot__content">
+              <h3>Sunset Town</h3>
+              <ul>
+                <li>Dạo phố, chụp ảnh.</li>
+                <li>Ngắm hoàng hôn.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>18:00–20:00</time>
+            <div class="slot__content">
+              <h3>Ăn tối tại Sunset Town</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>20:00–21:00</time>
+            <div class="slot__content">
+              <h3>Về khách sạn nghỉ ngơi</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chủ nhật -->
+    <section class="day" id="chu-nhat">
+      <div class="day__banner">
+        <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=1800&q=80" alt="Cát trắng và nước trong" loading="lazy" decoding="async" />
+        <div class="day__banner-content">
+          <span class="pill">Nam đảo · Ngày 4</span>
+          <h2>Chủ nhật</h2>
+          <p>Bãi Sao + sân bay</p>
+        </div>
+      </div>
+      <div class="container day__body">
+        <p class="day__intro reveal">
+          Ngày cuối không nên xếp quá nhiều hoạt động vì còn phụ thuộc giờ bay.
+        </p>
+        <div class="note-banner reveal">
+          <strong>Lịch dưới đây áp dụng nếu chuyến bay sau 15:00.</strong>
+          Bay sớm hơn thì cắt Bãi Sao, ưu tiên check-out và ra sân bay.
+        </div>
+        <div class="timeline">
+          <article class="slot reveal">
+            <time>07:00–08:00</time>
+            <div class="slot__content">
+              <h3>Ăn sáng &amp; check-out</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>08:30–11:00</time>
+            <div class="slot__content">
+              <h3>Bãi Sao</h3>
+              <ul>
+                <li>Đi Bãi Sao vào buổi sáng.</li>
+                <li>Cho bé chơi cát và tắm biển nhẹ nhàng.</li>
+                <li>Buổi sáng thường dễ chịu hơn cho trẻ nhỏ.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>11:00–12:30</time>
+            <div class="slot__content">
+              <h3>Ăn trưa</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>12:30–13:30</time>
+            <div class="slot__content">
+              <h3>Về khách sạn lấy hành lý</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>13:30–14:30</time>
+            <div class="slot__content">
+              <h3>Đi sân bay</h3>
+            </div>
+          </article>
+          <article class="slot reveal">
+            <time>Sau đó</time>
+            <div class="slot__content">
+              <h3>Làm thủ tục và bay về</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stay" id="noi-o">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Nơi ở</p>
+          <h2>Khu vực nên ở</h2>
+          <p class="section__sub">Một khách sạn Nam đảo cho cả 3 đêm — không đổi Bắc/Nam.</p>
+        </header>
+        <div class="stay__grid">
+          <article class="stay-card stay-card--featured reveal">
+            <span class="stay-card__badge">Ưu tiên</span>
+            <h3>Bãi Khem / An Thới</h3>
+            <p>Phù hợp nhất với lịch trình này vì gần mọi điểm Nam đảo, ngày Safari chỉ việc thuê xe riêng lên Bắc.</p>
+            <ul>
+              <li>Gần Bãi Khem</li>
+              <li>Gần ga cáp treo Hòn Thơm</li>
+              <li>Gần Sunset Town</li>
+              <li>Thuận tiện đi Bãi Sao</li>
+              <li>Ngày Safari: xe riêng đi thẳng Bắc đảo</li>
+            </ul>
+          </article>
+          <article class="stay-card reveal" style="--d: 0.12s">
+            <h3>Sunset Town</h3>
+            <p>Phù hợp nếu ưu tiên đi bộ buổi tối, ăn uống, ngắm cảnh và chụp ảnh.</p>
+            <ul>
+              <li>Đi bộ buổi tối</li>
+              <li>Ăn uống, ngắm cảnh, chụp ảnh</li>
+            </ul>
+            <p class="stay-card__note">Nhược điểm: không lý tưởng bằng Bãi Khem nếu mục tiêu chính là nghỉ dưỡng biển.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tips" id="luu-y">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Cùng bé 1 tuổi</p>
+          <h2>Lưu ý khi đi với Min</h2>
+        </header>
+
+        <div class="rhythm reveal">
+          <h3>Nhịp ngày</h3>
+          <ol class="rhythm__list">
+            <li><span>09:00–12:00</span> vui chơi</li>
+            <li><span>12:00–14:30</span> ăn + nghỉ</li>
+            <li><span>15:00–18:00</span> vui chơi</li>
+            <li><span>18:00–21:00</span> ăn + nghỉ</li>
+          </ol>
+        </div>
+
+        <div class="tips__grid">
+          <article class="tips-card reveal">
+            <h3>Nên chuẩn bị</h3>
+            <ul class="check">
+              <li>Xe đẩy gọn</li>
+              <li>Địu em bé</li>
+              <li>Đồ ăn quen thuộc của bé</li>
+              <li>Mũ / nón</li>
+              <li>Quần áo chống nắng</li>
+              <li>Kem chống nắng phù hợp cho trẻ</li>
+              <li>Đồ thay cho bé</li>
+              <li>Nước uống</li>
+            </ul>
+          </article>
+          <article class="tips-card tips-card--dark reveal" style="--d: 0.1s">
+            <h3>Đặc biệt lưu ý</h3>
+            <ul class="forbid">
+              <li>Hạn chế để bé ngoài nắng từ <strong>11:00–15:00</strong></li>
+              <li>Ngày Safari nên thuê xe riêng</li>
+              <li>Không nên chạy xe máy với bé 1 tuổi</li>
+              <li>Không ghép Safari + VinWonders cùng ngày</li>
+              <li>Không cần đổi khách sạn Bắc / Nam đảo</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section budget" id="ngan-sach">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Chi tiêu</p>
+          <h2>Gợi ý phân bổ ngân sách</h2>
+        </header>
+        <div class="budget__grid">
+          <article class="budget-card reveal">
+            <h3>Nên ưu tiên chi</h3>
+            <ul>
+              <li>Vé máy bay hợp lý</li>
+              <li>Khách sạn / resort tốt ở Nam đảo</li>
+              <li>Xe riêng ngày đi Safari</li>
+              <li>Vé Vinpearl Safari</li>
+              <li>Vé cáp treo Hòn Thơm</li>
+            </ul>
+          </article>
+          <article class="budget-card budget-card--mute reveal" style="--d: 0.1s">
+            <h3>Có thể bỏ qua</h3>
+            <ul>
+              <li>VinWonders</li>
+              <li>Tour 4 đảo ghép</li>
+              <li>Quá nhiều nhà hàng cao cấp</li>
+              <li>Đổi khách sạn Bắc / Nam</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="ket-luan">
+    <div class="container">
+      <header class="section__head section__head--light reveal">
+        <p class="eyebrow">Nhìn nhanh</p>
+        <h2>Lịch trình rút gọn</h2>
+      </header>
+      <div class="table-wrap reveal">
+        <table class="summary">
+          <thead>
+            <tr>
+              <th>Thời gian</th>
+              <th>Thứ 5</th>
+              <th>Thứ 6</th>
+              <th>Thứ 7</th>
+              <th>Chủ nhật</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Sáng</th>
+              <td>Đến PQ</td>
+              <td>Safari</td>
+              <td>Hòn Thơm</td>
+              <td>Bãi Sao</td>
+            </tr>
+            <tr>
+              <th>Trưa</th>
+              <td>Ăn + nghỉ</td>
+              <td>Ăn + về Nam đảo</td>
+              <td>Ăn + về khách sạn</td>
+              <td>Ăn trưa</td>
+            </tr>
+            <tr>
+              <th>Chiều</th>
+              <td>Bãi Khem</td>
+              <td>Nghỉ</td>
+              <td>Nghỉ + Sunset Town</td>
+              <td>Sân bay</td>
+            </tr>
+            <tr>
+              <th>Tối</th>
+              <td>Sunset Town</td>
+              <td>Nghỉ</td>
+              <td>Sunset Town</td>
+              <td>Bay về</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <blockquote class="footer__quote reveal">
+        Với hai người lớn và bé một tuổi, lịch trình này ưu tiên trải nghiệm vừa đủ
+        thay vì cố đi thật nhiều điểm. Một buổi Bắc đảo Safari. Nam đảo: Bãi Khem,
+        Hòn Thơm, Sunset Town, Bãi Sao. Có giờ nghỉ trưa mỗi ngày — không đổi khách sạn,
+        hạn chế tour ghép và di chuyển quá dài.
+      </blockquote>
+      <p class="footer__sign">Duke · Xíu · Min · Phú Quốc</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
